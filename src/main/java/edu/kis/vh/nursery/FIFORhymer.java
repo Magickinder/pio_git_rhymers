@@ -3,7 +3,7 @@ package edu.kis.vh.nursery;
 public class FIFORhymer extends DefaultCountingOutRhymer {
 	// Klawisz alt + strzałki umożliwia szybkie przełączanie się pomiędzy plikami otwartymi w IDE
 
-	public final DefaultCountingOutRhymer temp = new DefaultCountingOutRhymer();
+	private final DefaultCountingOutRhymer temp = new DefaultCountingOutRhymer();
 	
 	@Override
 	public int countOut() {
