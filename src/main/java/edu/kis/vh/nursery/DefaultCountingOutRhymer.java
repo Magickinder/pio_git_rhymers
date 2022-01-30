@@ -1,5 +1,16 @@
 package edu.kis.vh.nursery;
 
+/**
+ *	Class responsible for creating stack and managing it
+ *
+ *	getTotal() - returns number of values in stack
+ *	countIn(int in) - add value to stack if it's not full
+ *	callCheck() - checks if list is empty
+ *	isFull() - checks if list is full
+ *	peekABoo() - returns last value in stack if it's not empty
+ *	countOut() - returns last value in stack and reduces stack size by one
+ */
+
 public class DefaultCountingOutRhymer {
 
 	private static final int ARR_SIZE = 12;
